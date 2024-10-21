@@ -1,0 +1,123 @@
+INFO 2024-08-23 20:04:17,070 8492 Watching for file changes with StatReloader
+WARNING 2024-08-23 20:04:23,218 8492 Not Found: /favicon.ico
+INFO 2024-08-23 20:04:33,325 8492 254746696834 122
+INFO 2024-08-28 21:53:10,990 2292 Watching for file changes with StatReloader
+WARNING 2024-08-28 21:53:45,791 2292 Not Found: /favicon.ico
+INFO 2024-08-29 19:40:01,660 2144 Watching for file changes with StatReloader
+WARNING 2024-08-29 19:40:09,057 2144 Not Found: /favicon.ico
+INFO 2024-09-10 20:04:16,559 9420 Watching for file changes with StatReloader
+INFO 2024-09-10 20:06:57,370 12576 Watching for file changes with StatReloader
+INFO 2024-09-10 20:09:32,748 12576 C:\Users\Jack\Desktop\STK_PUSH\MPESA_API\STK_PUSH\views.py changed, reloading.
+INFO 2024-09-10 20:09:34,273 4656 Watching for file changes with StatReloader
+WARNING 2024-09-10 20:09:43,872 4656 Not Found: /favicon.ico
+INFO 2024-09-10 20:11:43,683 4656 C:\Users\Jack\Desktop\STK_PUSH\MPESA_API\STK_PUSH\views.py changed, reloading.
+INFO 2024-09-10 20:11:45,715 8200 Watching for file changes with StatReloader
+INFO 2024-09-10 20:17:08,744 10624 Watching for file changes with StatReloader
+INFO 2024-09-10 20:18:10,917 10624 C:\Users\Jack\Desktop\STK_PUSH\MPESA_API\MPESA_API\settings.py changed, reloading.
+INFO 2024-09-10 20:18:12,115 13280 Watching for file changes with StatReloader
+WARNING 2024-09-10 20:18:17,696 13280 Not Found: /favicon.ico
+INFO 2024-09-10 20:18:28,424 13280 254746696834 100
+ERROR 2024-09-10 20:18:29,125 13280 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Jack\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jack\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jack\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jack\Desktop\STK_PUSH\MPESA_API\STK_PUSH\views.py", line 20, in initiate_payment
+    from MPESA_API.STK_PUSH import Mpesa
+ModuleNotFoundError: No module named 'MPESA_API.STK_PUSH'
+WARNING 2024-09-10 20:19:00,110 13280 Not Found: /favicon.ico
+INFO 2024-09-10 20:19:07,853 13280 254746696834 1000
+ERROR 2024-09-10 20:19:07,939 13280 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Jack\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jack\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jack\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jack\Desktop\STK_PUSH\MPESA_API\STK_PUSH\views.py", line 20, in initiate_payment
+    from MPESA_API.STK_PUSH import Mpesa
+ModuleNotFoundError: No module named 'MPESA_API.STK_PUSH'
+INFO 2024-09-10 20:42:30,479 7616 Watching for file changes with StatReloader
+INFO 2024-09-10 21:04:46,644 1988 Watching for file changes with StatReloader
+INFO 2024-09-10 21:05:29,424 1988 C:\Users\Jack\Desktop\stk-push2\MPESA_API\MPESA_API\urls.py changed, reloading.
+INFO 2024-09-10 21:05:30,831 4716 Watching for file changes with StatReloader
+INFO 2024-09-10 21:06:07,817 4716 C:\Users\Jack\Desktop\stk-push2\MPESA_API\STK_PUSH\Mpesa.py changed, reloading.
+INFO 2024-09-10 21:06:09,086 9308 Watching for file changes with StatReloader
+INFO 2024-09-10 21:07:34,760 9308 C:\Users\Jack\Desktop\stk-push2\MPESA_API\MPESA_API\settings.py changed, reloading.
+INFO 2024-09-10 21:07:36,378 3200 Watching for file changes with StatReloader
+INFO 2024-09-10 21:07:48,906 3200 254746696834 100
+DEBUG 2024-09-10 21:07:48,906 3200 Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2024-09-10 21:08:01,380 3200 https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/11" 200 None
+DEBUG 2024-09-10 21:08:01,405 3200 Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2024-09-10 21:08:02,977 3200 https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/11" 400 None
+DEBUG 2024-09-10 21:08:02,987 3200 {'requestId': '7071-4170-a0e4-8345632bad442321853', 'errorCode': '400.002.02', 'errorMessage': 'Bad Request - Invalid Timestamp'}
+ERROR 2024-09-10 21:08:03,127 3200 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Jack\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jack\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jack\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jack\Desktop\stk-push2\MPESA_API\STK_PUSH\views.py", line 43, in initiate_payment
+    code = json_resp["ResponseCode"]
+           ~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'ResponseCode'
+INFO 2024-09-10 21:11:49,549 3200 C:\Users\Jack\Desktop\stk-push2\MPESA_API\STK_PUSH\views.py changed, reloading.
+INFO 2024-09-10 21:11:50,764 5644 Watching for file changes with StatReloader
+INFO 2024-09-10 21:12:20,456 5644 254746696834 433
+DEBUG 2024-09-10 21:12:20,472 5644 Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2024-09-10 21:12:23,929 5644 https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/11" 200 None
+DEBUG 2024-09-10 21:12:23,937 5644 Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2024-09-10 21:12:35,614 5644 https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/11" 500 None
+DEBUG 2024-09-10 21:12:35,619 5644 {'fault': {'faultstring': 'Datastore Error', 'detail': {'errorcode': 'Internal Server Error'}}}
+INFO 2024-09-10 21:13:24,337 5644 254746696834 4
+DEBUG 2024-09-10 21:13:24,339 5644 Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2024-09-10 21:13:26,129 5644 https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/11" 200 None
+DEBUG 2024-09-10 21:13:26,145 5644 Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2024-09-10 21:13:31,344 5644 https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/11" 400 None
+DEBUG 2024-09-10 21:13:31,346 5644 {'requestId': 'f1e2-4b95-a71d-b30d3cdbb7a71611241', 'errorCode': '400.002.02', 'errorMessage': 'Bad Request - Invalid Timestamp'}
+ERROR 2024-09-10 21:13:31,346 5644 An error with code 400.002.02 occurred
+INFO 2024-09-11 05:56:54,092 2224 Watching for file changes with StatReloader
+INFO 2024-09-11 05:57:04,372 2224 254746696834 4
+DEBUG 2024-09-11 05:57:04,376 2224 Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2024-09-11 05:57:05,445 2224 https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/11" 200 None
+DEBUG 2024-09-11 05:57:05,455 2224 Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2024-09-11 05:57:06,286 2224 https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/11" 400 None
+DEBUG 2024-09-11 05:57:06,286 2224 {'requestId': '8ed5-4489-a67f-881890b925f2173229', 'errorCode': '400.002.02', 'errorMessage': 'Bad Request - Invalid Timestamp'}
+ERROR 2024-09-11 05:57:06,286 2224 An error with code 400.002.02 occurred
+INFO 2024-09-11 05:59:09,837 2224 254746696834 3
+DEBUG 2024-09-11 05:59:09,837 2224 Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2024-09-11 05:59:10,429 2224 https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/11" 200 None
+DEBUG 2024-09-11 05:59:10,437 2224 Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2024-09-11 05:59:11,818 2224 https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/11" 400 None
+DEBUG 2024-09-11 05:59:11,818 2224 {'requestId': '3124-481d-b706-10bdd6fbc8e2172757', 'errorCode': '400.002.02', 'errorMessage': 'Bad Request - Invalid Timestamp'}
+ERROR 2024-09-11 05:59:11,818 2224 An error with code 400.002.02 occurred
+INFO 2024-09-11 06:00:03,685 2224 254746696834 2
+DEBUG 2024-09-11 06:00:03,696 2224 Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2024-09-11 06:00:04,538 2224 https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/11" 200 None
+DEBUG 2024-09-11 06:00:04,547 2224 Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2024-09-11 06:00:05,420 2224 https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/11" 400 None
+DEBUG 2024-09-11 06:00:05,420 2224 {'requestId': '3124-481d-b706-10bdd6fbc8e2172778', 'errorCode': '400.002.02', 'errorMessage': 'Bad Request - Invalid Timestamp'}
+ERROR 2024-09-11 06:00:05,420 2224 An error with code 400.002.02 occurred
+INFO 2024-09-17 21:08:42,787 224 Watching for file changes with StatReloader
+INFO 2024-09-17 21:08:55,114 224 254746696834 1
+DEBUG 2024-09-17 21:08:55,114 224 Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2024-09-17 21:09:07,288 224 https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/11" 200 None
+DEBUG 2024-09-17 21:09:07,305 224 Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2024-09-17 21:09:11,373 224 https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/11" 400 None
+DEBUG 2024-09-17 21:09:11,380 224 {'requestId': '2e49-42fe-9d40-bf4b36f202bb99896', 'errorCode': '400.002.02', 'errorMessage': 'Bad Request - Invalid Timestamp'}
+ERROR 2024-09-17 21:09:11,380 224 An error with code 400.002.02 occurred
